@@ -31,3 +31,8 @@ matches=re.findall('"[^"]+\.css"|"[^"]+\.js"|"[^"]+\.png"',contenu_fichier,re.M)
 # re.M == recherche Multilignes
 nv=""
 
+#modifier
+
+for r in matches :
+    print(r)
+
